@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+* {
+	font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+	background-image: url(../imagens/fundo-login.jpg);
+}
+
+.logo {
+	width: 20%;
+	margin-bottom: 100px;
+}
+
+.main {
+	text-align: center;
+}
+
+hr {
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 100%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+a {
+	color: #ffcc00;
+}
+
+.box {
+	border-radius: 10px;
+	margin: auto;
+	width: 22%;
+	height:350px;
+	padding-top: 5px;
+	text-align: center;
+	background-color: #cecece;
+}
+
+.textbox {
+	background-color: rgba(200,200,200,0);
+	padding: 6px;
+    font-size: 18px;
+    border-style: none;
+	border: 0px solid;
+	border-bottom: solid 2px black;
+}
+
+.login {
+	font-weight: bold;
+	width: 65%;
+	border-radius: 3%;
+	box-shadow: 1px 1px 6px #666666;
+	color: #2e2e2e;
+	font-size: 18px;
+	background: #ffcc00;
+	padding: 6px 6px 6px 6px;
+	text-decoration: none;
+}
+
+.login:hover {
+	background: #c29b00;
+	text-decoration: none;
+}
+
+.barraCadastro {
+	margin-top: -20px;
+	background-color: grey; 
+	height: 40px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}

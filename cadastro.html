@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Veículos - Blitz</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="imagens/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+</head>
+<body>
+	<!--COMEÇO CABEÇALHO-->
+	<div class="all">
+		<div class="baseCabecalho">
+			<div class="cabecalho">
+				<div class="logo">
+					<a href="index.html"><img class="logo" src="imagens/logo2.png"></a>
+				</div>
+				<nav class="menu">
+					<ul>
+				        <li><a href="index.html">Início</a></li>
+				        <li><a href="cadastro.html">Cadastrar um veículo</a></li>
+				        <li><a href="pesquisa.html">Pesquisar um veículo</a></li>
+				        <li><a href="status.html">Status</a></li>
+				        <li><a href="login.html">Login/Cadastro</a></li>
+				    </ul>
+				</nav>
+			</div>
+		</div>
+		<!--FIM CABEÇALHO-->
+
+		<!--COMEÇO PÁGINA-->
+		<div class="corpo">
+			<img class="banner" src="imagens/banner3.jpg" alt="carro"><br>
+			<h1>Cadastrar um veículo</h1>
+			<form action="cadastro.php" method="get">
+				<div class="boxes">
+					<div class="caixa">
+						<h2>Qual a marca<br>do carro?</h2>
+						<select class="textbox" required>
+							<option value="vazio" disabled selected>--Selecione a marca--</option>
+							<option value="chevrolet">Chevrolet</option>
+							<option value="ford">Ford</option>
+							<option value="hyundai">Hyundai</option>
+							<option value="volkswagen">Volkswagen</option>
+						</select>
+					</div>
+					<div class="caixa">
+							<h2>Qual o modelo<br>do carro?</h2>
+							<input class="textbox" type="text" name="modelo" placeholder="--Digite o modelo--" required>
+					</div>
+					<div class="caixa">
+						<h2>Qual o ano<br>do carro?</h2>
+						<input class="textbox" type="text" name="ano" placeholder="--Digite o ano--" minlength="4" maxlength="4" required>
+					</div>
+				</div>
+				<div class="boxes2">
+					<input class="botao" type="submit" name="cadastrar" value="Cadastrar">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

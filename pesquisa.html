@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pesquisa de Veículos - Blitz</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="imagens/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/pesquisa.css">
+</head>
+<body>
+	<!--COMEÇO CABEÇALHO-->
+	<div class="all">
+		<div class="baseCabecalho">
+			<div class="cabecalho">
+				<div class="logo">
+					<a href="index.html"><img class="logo" src="imagens/logo2.png"></a>
+				</div>
+				<nav class="menu">
+					<ul>
+				        <li><a href="index.html">Início</a></li>
+				        <li><a href="cadastro.html">Cadastrar um veículo</a></li>
+				        <li><a href="pesquisa.html">Pesquisar um veículo</a></li>
+				        <li><a href="status.html">Status</a></li>
+				        <li><a href="login.html">Login/Cadastro</a></li>
+				    </ul>
+				</nav>
+			</div>
+		</div>
+		<!--FIM CABEÇALHO-->
+
+		<!--COMEÇO PÁGINA-->
+		<div class="corpo">
+			<img class="banner" src="imagens/banner2.jpg" alt="carro"><br>
+			<div class="baseBusca">
+				<div class="busca">
+					<form action="pesquisa.php" method="get" class="pesquisar">
+						<input class="barraBusca" type="text" name="barraBusca" placeholder="FAÇA SUA BUSCA">
+						<input type="submit" name="buscar" hidden>
+					</form>
+					<img src="imagens/busca.png">
+				</div>
+			</div><br>
+			<hr>
+			<div class="linha">
+				<h2>PESQUISE POR CLASSE</h2>
+			</div>
+			<div class="container">
+				<a href="#" class="imagens">
+					<img src="imagens/c1.png">
+				</a>
+				<a href="#" class="imagens">
+					<img src="imagens/c2.png">
+				</a>	
+				<a href="#" class="imagens">
+					<img src="imagens/c3.png">
+				</a>	
+				<a href="#" class="imagens">
+					<img src="imagens/c4.png">
+				</a>					
+			</div>
+			<br><hr>
+			<div class="linha2">
+				<h2>PESQUISE POR ESTILO DE VIDA</h2>
+			</div>
+			<div class="container">
+				<a href="#" class="imagens2">
+					<img src="imagens/c5.png">
+				</a>
+				<a href="#" class="imagens2">
+					<img src="imagens/c6.png">
+				</a>	
+				<a href="#" class="imagens2">
+					<img src="imagens/c7.png">
+				</a>	
+				<a href="#" class="imagens2">
+					<img src="imagens/c8.png">
+				</a>
+			</div><br><hr>
+			<div class="linha3">
+				<h2>PESQUISE POR PREÇO</h2>
+			</div>
+			<div class="container">
+				<a class="link" href="#"><input class="botao" type="button" href="#" name="menorQue10k" value="Menor que R$10k"></a>
+				<a class="link" href="#"><input class="botao" type="button" name="menorQue30k" value="Menor que R$30k"></a>
+				<a class="link" href="#"><input class="botao" type="button" name="menorQue50k" value="Menor que R$50k"></a>
+				<a class="link" href="#"><input class="botao" type="button" name="menorQue100k" value="Menor que R$100k"></a>
+				<a class="link" href="#"><input class="botao" type="button" name="maisQue10k" value="Maior que R$100k"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
